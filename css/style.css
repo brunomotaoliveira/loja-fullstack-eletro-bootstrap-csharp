@@ -75,3 +75,15 @@ footer {
     font-size: x-large;
     font-weight: bolder;
 }
+
+
+/* Pagina Nossas lojas  */
+#lojas {
+    width: 100%;
+    text-align: center;
+}
+
+#lojas td {
+    padding: 20px;
+    width: 33%;
+}
