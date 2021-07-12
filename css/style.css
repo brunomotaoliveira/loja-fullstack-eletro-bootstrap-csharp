@@ -87,3 +87,23 @@ footer {
     padding: 20px;
     width: 33%;
 }
+
+/*  Página Contato  */
+
+#contato-tabela {
+    width: 100%;
+}
+
+#contato-tabela td {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+#contato-tabela td span {
+    font-size: x-large;
+}
+
+#contato-form input,textarea {
+    width: 400px;
+}
