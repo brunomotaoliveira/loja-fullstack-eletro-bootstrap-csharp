@@ -33,3 +33,45 @@ body {
     width: 100%;
     height: 120px;
 }
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+
+
+/* PAGINA Produtos */
+#categorias{
+    width: 100%;
+}
+
+#categorias td{
+    padding: 20px;
+    vertical-align: top;
+    width: 20%;
+}
+
+.lista-produtos{
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.lista-produtos img {
+    width: 120px;
+}
+
+
+.descricao-produto {
+    font-size: large;
+}
+
+.valor-antigo{
+    font-size: small;
+}
+
+.valor-novo{
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+}
