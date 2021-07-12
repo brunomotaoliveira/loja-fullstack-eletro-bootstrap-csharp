@@ -1,0 +1,25 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-color: #ff2b00;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    width: 25%;
+}
+
+table span {
+    color: white;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo-menu{
+    width: 100px;
+}
