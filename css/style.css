@@ -4,16 +4,11 @@ body {
 /* Menu */
 #menu {
     background-color: #ff2b00;
-    width: 100%;
 }
 
 #menu a {
     color: white;
-}
-
-#menu td {
-    text-align: center;
-    width: 25%;
+    text-decoration: none;
 }
 
 #logo-menu{
