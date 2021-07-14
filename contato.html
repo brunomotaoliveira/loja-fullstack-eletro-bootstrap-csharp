@@ -1,68 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Contato - Full Stack Eletro</title>
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <!-- menu -->
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">
-                        <span>Home</span>
-                    </a>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Full Stack Eletro</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- css externo -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">
+            <img src="./imagens/fullstackeletro.png" alt="Logo FullStack Eletro" class="w-75">
+        </a>
+
+
+        <div class="container justify-content-end mr-0">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li>
-                    <a href="produtos.html">
-                        <span>Produtos</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
                 </li>
-                <li>
-                    <a href="loja.html">
-                        <span>Nossas Lojas</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="loja.html">Nossas Lojas</a>
                 </li>
-                <li>
-                    <a href="contato.html">
-                        <span>Contato</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
                 </li>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
 
-            <h2>Contato</h2>
-            <hr>
-            <table id="contato-tabela">
-                <tr>
-                    <td>
-                        <img src="./imagens/email.png" alt="email" width="40px">
-                        <span>contato@fullstackeletro.com</span>
-                    </td>
+    <h2>Contato</h2>
+    <hr>
+    <table id="contato-tabela">
+        <tr>
+            <td>
+                <img src="./imagens/email.png" alt="email" width="40px">
+                <span>contato@fullstackeletro.com</span>
+            </td>
 
-                    <td>
-                        <img src="./imagens/telefone.png" alt="telefone" width="80px">
-                        <span>(11) 9999-9999</span>
-                    </td>
-                </tr>
-            </table>
+            <td>
+                <img src="./imagens/telefone.png" alt="telefone" width="80px">
+                <span>(11) 9999-9999</span>
+            </td>
+        </tr>
+    </table>
 
-            <form id="contato-form">
-                <h4>Nome: </h4>
-                <input type="text">
-                <h4>Mensagem: </h4>
-                <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
+    <form id="contato-form">
+        <h4>Nome: </h4>
+        <input type="text">
+        <h4>Mensagem: </h4>
+        <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
 
-                <input type="submit" value="Enviar">
-            </form>
+        <input type="submit" value="Enviar">
+    </form>
 
 
-            <footer id="rodape">
-                <p id="formas-de-pagamento">Forma de Pagamento</p>
-                <img src="./imagens/formas-de-pagamento.png" alt="Formas de Pagamento" id="img-formas-de-pagamento">
-                <p>&copy brunomotadev</p>
-            </footer>
-    </body>
+    <footer class="bg-secondary fixed-bottom text-center text-white" id="rodape">
+        <p id="formas-de-pagamento">Forma de Pagamento</p>
+        <img class="ing-fluid w-50" src="./imagens/formas-de-pagamento.png" alt="Formas de Pagamento" id="img-formas-de-pagamento">
+        <p>&copy brunomotadev</p>
+    </footer>
+
+
+
+
+
+    <!--bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

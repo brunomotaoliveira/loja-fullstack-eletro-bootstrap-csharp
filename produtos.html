@@ -1,187 +1,202 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta  charset="UTF-8">
-        <title>Produtos - Full Stack Eletro</title>
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <!-- menu -->
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">
-                        <span>Home</span>
-                    </a>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos - Full Stack Eletro</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- css externo -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="./imagens/fullstackeletro.png" alt="Logo FullStack Eletro" class="w-75">
+        </a>
+
+
+        <div class="container justify-content-end mr-0">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li>
-                    <a href="produtos.html">
-                        <span>Produtos</span>
-                    </a>
+                <li class="nav-item dropdown show">
+                    <a class="nav-link dropdown-toggle" href="produtos.html" id="navbardrop_produtos" data-toggle="dropdown" aria-expanded="true">Produtos</a>
+                    <div class="dropdown-menu show">
+                        <a class="dropdown-item" href="#">Geladeiras (3)</a>
+                        <a class="dropdown-item" href="#">Fogões (3)</a>
+                        <a class="dropdown-item" href="#">Microondas (3)</a>
+                        <a class="dropdown-item" href="#">Lava Roupas (3)</a>
+                        <a class="dropdown-item" href="#">Lava-Louças (3)</a>
+                    </div>
                 </li>
-                <li>
-                    <a href="loja.html">
-                        <span>Nossas Lojas</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="loja.html">Nossas Lojas</a>
                 </li>
-                <li>
-                    <a href="contato.html">
-                        <span>Contato</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
                 </li>
             </ul>
-        </nav>
-            <header>
-                <h2>Produtos</h2>
-            </header>
-            <hr>
+        </div>
+    </nav>
 
-            <section id="categorias">
-                        <h3><span>Categorias</span></h3>
-                        <ul>
-                            <li><span>Geladeiras (3)</span></li>
-                            <li><span>Fogões (2)</span></li>
-                            <li><span>Microondas (3)</span></li>
-                            <li><span>Lava Roupas (2)</span></li>
-                            <li><span>Lava-Louças (2)</span></li>
-                        </ul>
-            </section>
-                    
-            <section class="produtos">     
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/geladeira.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Geladeira Java Frost Free Side Inverse 540 litros</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/geladeira.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Geladeira Frost Free .NET Side Inverse 440 litros</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/geladeira.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Geladeira Frost Free JavaScript Side Inverse 540 litros</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/lavaroupas.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Lava Roupas Spring Boot 3150</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                <!-- segunda lista -->
-                
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/microondas.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Microondas Azeroth Extreme</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/microondas.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Microondas Midgard Lighting</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/microondas.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Microondas Runeterra Midlaner</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/lavalouca.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Lava-Louças For The Horde PowerPlus 3000</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                <!-- terceira lista -->
-                
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/lavaroupas.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Lava Roupas Duoconfia Limpa 3 em 1</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/lavalouca.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Lava-Louças For The Alliance SmallPower -8000</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/geladeira.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Geladeira Frost Free Bootstrap Side Inverse 715 litros</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>
-                    
-                    
-                        <div class="box-produto">
-                            <img src="./imagens/produtos/geladeira.png" alt="geladeira">
-                            <br>
-                            <p class="descricao-produto">Geladeira Frost Free SQL Server Side Inverse 1540 litros</p>
-                            <hr>
-                            <p class="valor-antigo"><del>R$ 6.389,00</del></p>
-                            <br>
-                            <p class="valor-novo"><strong>R$ 5.019,00</strong></p>
-                        </div>             
-            </section>       
+    <section>
+            <div class="card-deck p-4 text-center">
+                <div class="card">
+                    <img class="card-img-bottom" src="./imagens/produtos/geladeira.png" alt="geladeira">
+                    <div class="card-body">
+                        <h6 class="card-title">Geladeira Java Frost Free Side Inverse 540 litros</h6>
+                        <hr>
+                        <p class="card-text"><del>R$ 6.389,00</del></p>
+                        <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./imagens/produtos/geladeira.png" alt="geladeira">
+                    <div class="card-body">
+                        <h6 class="card-title">Geladeira Frost Free .NET Side Inverse 440 litros</h6>
+                        <hr>
+                        <p class="card-text"><del>R$ 6.389,00</del></p>
+                        <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./imagens/produtos/geladeira.png" alt="geladeira">
+                    <div class="card-body">
+                        <h6 class="card-title">Geladeira Frost Free JavaScript Side Inverse 540 litros</h6>
+                        <hr>
+                        <p class="card-text"><del>R$ 6.389,00</del></p>
+                        <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./imagens/produtos/lavaroupas.png" alt="geladeira">
+                    <div class="card-body">
+                        <h6 class="card-title">Lava Roupas Spring Boot 3150</h6>
+                        <hr>
+                        <p class="card-text"><del>R$ 6.389,00</del></p>
+                        <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                    </div>
+                </div>
+        </div>
+
+        <!-- segunda lista -->
+
+        <div class="card-deck p-4 text-center">
+            <div class="card">
+                <img src="./imagens/produtos/microondas.png" alt="geladeira">
             
+                <div class="card-body">
+                    <h6 class="card-title">Microondas Azeroth Extreme</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/produtos/microondas.png" alt="geladeira">
+                <div class="card-body">
+                    <h6 class="card-title">Microondas Midgard Lighting</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/produtos/microondas.png" alt="geladeira">
+                <div class="card-body">
+                    <h6 class="card-title">Microondas Runeterra Midlaner</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/produtos/lavalouca.png" alt="geladeira">
+                <div class="card-body">
+                    <h6 class="card-title">Lava-Louças For The Horde PowerPlus 3000</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+        </div>
 
-            <footer id="rodape">
-                <p id="formas-de-pagamento">Forma de Pagamento</p>
-                <img src="./imagens/formas-de-pagamento.png" alt="Formas de Pagamento" id="img-formas-de-pagamento">
-                <p>&copy brunomotadev</p>
-            </footer>
-    </body>
+        <!-- terceira lista -->
+
+
+        <div class="card-deck p-4 text-center">
+            <div class="card">
+                <img src="./imagens/produtos/lavaroupas.png" alt="geladeira">
+                <div class="card-body">
+                    <h6 class="card-title">Lava Roupas Duoconfia Limpa 3 em 1</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/produtos/lavalouca.png" alt="geladeira">
+                <div class="card-body">
+                    <h6 class="card-title">Lava-Louças For The Alliance SmallPower -8000</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/produtos/geladeira.png" alt="geladeira">
+                <div class="card-body">
+                    <h6 class="card-title">Geladeira Frost Free Bootstrap Side Inverse 715 litros</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/produtos/geladeira.png" alt="geladeira">
+                <div class="card-body">
+                    <h6 class="card-title">Geladeira Frost Free SQL Server Side Inverse 1540 litros</h6>
+                    <hr>
+                    <p class="card-text"><del>R$ 6.389,00</del></p>
+                    <p class="card-text"><strong>R$ 5.019,00</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-secondary text-center text-white" id="rodape">
+        <p id="formas-de-pagamento">Forma de Pagamento</p>
+        <img class="ing-fluid w-50" src="./imagens/formas-de-pagamento.png" alt="Formas de Pagamento" id="img-formas-de-pagamento">
+        <p>&copy brunomotadev</p>
+    </footer>
+
+
+
+
+
+
+
+
+    <!--bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
