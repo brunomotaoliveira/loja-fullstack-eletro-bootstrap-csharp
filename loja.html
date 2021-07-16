@@ -23,13 +23,13 @@
 
         <div class="container justify-content-end mr-0">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="produtos.html">Produtos</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="loja.html">Nossas Lojas</a>
                 </li>
                 <li class="nav-item">
@@ -43,33 +43,36 @@
     </nav>
     <h2>Nossas lojas</h2>
     <hr>
-    <table id="lojas">
-        <tr>
-            <td>
-                <h3 style="font-family: Arial, Helvetica, sans-serif;">Rio de Janeiro</h3>
-                <p style="font-family: Arial, Helvetica, sans-serif;">Avenida HTML, 5000</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;"> 10&ordm;, andar</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">Centro</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">(21) 3333-333</p>
-            </td>
 
-            <td>
-                <h3 style="font-family: Arial, Helvetica, sans-serif;">São Paulo</h3>
-                <p style="font-family: Arial, Helvetica, sans-serif;">Avenida CSS, 985</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">3&ordm;, andar</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">Jardins</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">(11) 4444-4444</p>
-            </td>
-
-            <td>
-                <h3 style="font-family: Arial, Helvetica, sans-serif;">Santa Catarina</h3>
-                <p style="font-family: Arial, Helvetica, sans-serif;">Rua Maujor &Aacute;vila, 370</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">Predio B</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">Vila da Cascata</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;">(47) 5555-5555</p>
-            </td>
-        </tr>
-    </table>
+    <div class="card-deck p-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-text">Avenida HTML, 5000</p>
+            <p class="card-text">10&ordm;, andar</p>
+            <p class="card-text">Centro</p>
+            <p class="card-text">(21) 3333-333</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">São Paulo</h5>
+            <p class="card-text">Avenida CSS, 985</p>
+            <p class="card-text">3&ordm;, andar</p>
+            <p class="card-text">Jardins</p>
+            <p class="card-text">(11) 4444-4444</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Santa Catarina</h5>
+            <p class="card-text">Rua Maujor &Aacute;vila, 370</p>
+            <p class="card-text">Predio B</p>
+            <p class="card-text">Vila da Cascata</p>
+            <p class="card-text">(47) 5555-5555</p>
+          </div>
+        </div>
+      </div>
     <footer class="bg-secondary fixed-bottom text-center text-white" id="rodape">
         <p id="formas-de-pagamento">Forma de Pagamento</p>
         <img class="ing-fluid w-50" src="./imagens/formas-de-pagamento.png" alt="Formas de Pagamento" id="img-formas-de-pagamento">

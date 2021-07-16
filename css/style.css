@@ -8,3 +8,15 @@
 .card {
     box-shadow: 0 0 3px #007bff;
 }
+
+.navbar {
+    box-shadow: 0 0 7px #007bff;
+}
+
+.lista-produtos {
+    padding-top: 6rem;
+}
+
+.badge {
+    font-size: 1.5rem;
+}
