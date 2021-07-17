@@ -14,9 +14,23 @@
 }
 
 .lista-produtos {
-    padding-top: 6rem;
+    margin-top: 6rem;
+}
+
+.card-deck {
+    padding-bottom: 1rem;
 }
 
 .badge {
     font-size: 1.5rem;
+}
+
+
+footer{
+width: 100%;
+position: absolute;
+}
+
+.rodape-geral {
+    bottom: 0;
 }
