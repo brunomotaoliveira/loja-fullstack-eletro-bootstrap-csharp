@@ -34,3 +34,12 @@ position: absolute;
 .rodape-geral {
     bottom: 0;
 }
+
+/* Pagina de Logina */
+
+.login-style {
+    box-shadow: 0 0 3px #007bff;
+    margin-top: 10rem;
+    width: 40%;
+    padding: 10px;
+}
